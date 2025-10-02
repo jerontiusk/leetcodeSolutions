@@ -3,3 +3,6 @@
 ################################################################################
 
 /leetcode/obj/Debug/net8.0
+/.vs
+/leetcode/bin/Debug/net8.0
+/leetcode/obj
