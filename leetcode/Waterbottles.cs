@@ -2,8 +2,7 @@
 using System.ComponentModel.Design;
 
 
-new Solution().NumWaterBottles(15,4);
-public class Solution
+public partial class Solution
 {
     public int NumWaterBottles(int numBottles, int numExchange)
     {
