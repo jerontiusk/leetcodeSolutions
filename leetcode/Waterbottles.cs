@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.Design;
 
+new Solution().IsPalindrome("a");
 
 public partial class Solution
 {
