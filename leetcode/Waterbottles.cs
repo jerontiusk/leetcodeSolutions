@@ -1,7 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.Design;
 
-new Solution().IsPalindrome("a");
+class Program
+{
+    public static void Main(string[] args)
+    {
+        new Solution().TotalMoney(10);
+    }
+}
 
 public partial class Solution
 {
