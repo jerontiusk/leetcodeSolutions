@@ -1,0 +1,19 @@
+﻿public partial class Solution
+{
+    public int MaxSumDivThree(int[] nums)
+    {
+        int[] f = { 0, int.MinValue, int.MinValue };
+        foreach (int num in nums)
+        {
+            int[] g = new int[3];
+            Array.Copy(f, 0, g, 0, 3);
+            for (int i = 0; i < 3; ++i)
+            {
+                g[(i + num % 3) % 3] =
+                    Math.Max(g[(i + num % 3) % 3], f[i] + num);
+            }
+            f = g;
+        }
+        return f[0];
+    }
+}
